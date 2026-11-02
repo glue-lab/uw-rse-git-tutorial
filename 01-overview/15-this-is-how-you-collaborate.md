@@ -16,6 +16,7 @@ cd ../git-tutorial
 git fetch origin
 git status
 git pull
+git log --oneline
 ```
 
 ## What you'll see

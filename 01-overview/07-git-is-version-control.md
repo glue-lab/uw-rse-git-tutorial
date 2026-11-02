@@ -8,19 +8,21 @@ control system). A **branch** is a separate version, or timeline, of your projec
 
 **Starting point:** the two-commit repository from [1.6](06-git-saves-changes.md).
 
-## Create a new version
-
-```bash
-git branch  # on main branch
-git checkout -b new-version
-echo "My Project" > README.md && git add .
-git commit -m "A new README version"
-```
+## Create a new branch
 
 `git branch` lists branches and marks the one you're on with `*`. `git checkout -b`
 creates a new branch and switches to it:
 
+```bash
+git branch  # on main branch
+git checkout -b new-version
+git branch  # now on new-version
 ```
+
+```
+$ git branch
+* main
+
 $ git checkout -b new-version
 Switched to a new branch 'new-version'
 
@@ -29,8 +31,18 @@ $ git branch
 * new-version
 ```
 
-The new branch starts as a copy of the one you branched from. The commit made on it
-belongs only to `new-version`:
+## Make a new version on it
+
+The new branch starts as a copy of the one you branched from. Change `README.md` and
+commit, just as before:
+
+```bash
+echo "My Project" > README.md && git add .
+git commit -m "A new README version"
+git log --oneline
+```
+
+The commit belongs only to `new-version`:
 
 ```
 $ git log --oneline

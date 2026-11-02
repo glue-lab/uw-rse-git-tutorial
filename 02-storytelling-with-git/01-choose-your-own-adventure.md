@@ -87,6 +87,10 @@ git add . && git commit -m "Add testing to project"
 
 ## Two adventures, side by side
 
+```bash
+git log --oneline --graph --all
+```
+
 ```
 $ git log --oneline --graph --all
 * 3368bba Add testing to project

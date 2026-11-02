@@ -44,9 +44,9 @@ On reflection, that path is far too verbose to type every time. You'd rather go 
 Rather than adding another commit that moves the file back, erase the commit:
 
 ```bash
-git log --oneline        # find the commit before the move
-git reset --hard <commit>
-git log --oneline        # the move is gone
+git log --oneline     # the move is the latest commit
+git reset --hard HEAD~1
+git log --oneline     # the move is gone
 ```
 
 ```

@@ -43,6 +43,11 @@ hint: "git add/rm <conflicted_files>", then run "git rebase --continue".
 `git status` shows where things stand: the new test file is ready to go, but
 `requirements.txt` needs a decision.
 
+```bash
+git status
+cat requirements.txt
+```
+
 ```
 $ git status
 ...
@@ -78,6 +83,10 @@ git rebase --continue     # may open an editor for the commit message
 ```
 
 ## A straight story
+
+```bash
+git log --oneline --graph --all
+```
 
 ```
 $ git log --oneline --graph --all

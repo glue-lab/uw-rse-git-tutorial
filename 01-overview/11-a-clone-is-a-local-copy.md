@@ -19,6 +19,7 @@ git clone \
   git@github.com:<your-username>/git-tutorial.git
 cd git-tutorial
 git status
+git log --oneline
 ```
 
 The clone has the same history you pushed, and it already knows where it came from:

@@ -13,13 +13,13 @@ real functionality.
 ```bash
 git checkout -b python-script
 echo 'print("Hello, Git")' > script.py
+python3 script.py
 git add . && git commit -m \
     "Add Python script"
-git log
+git log --oneline
 ```
 
-The new branch starts as a copy of `main`. Before committing, you can check that the
-script runs:
+The new branch starts as a copy of `main`. Before committing, check that the script runs:
 
 ```
 $ python3 script.py

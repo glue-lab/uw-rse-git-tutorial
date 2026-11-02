@@ -13,7 +13,8 @@ project. Doing it on a new branch leaves `main` untouched.
 git checkout -b old-version
 git reset --hard <commit>  # hash of "Initialize project README", from git log
 git log
-git checkout main && git log
+cat README.md
+git checkout main && git log --oneline
 ```
 
 `git reset --hard` moves the current branch to the given commit and makes your files match

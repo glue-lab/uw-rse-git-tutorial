@@ -33,6 +33,10 @@ git commit -m "Initial implementation"
 `new-feature` now sits on top of the debugging commits that `testing` has already cleaned
 up:
 
+```bash
+git log --oneline --graph testing new-feature
+```
+
 ```
 $ git log --oneline --graph testing new-feature
 * 879a895 Cool new feature
@@ -64,6 +68,7 @@ git log --oneline  # copy the hash of "Debug: Result needs to be even higher"
 D=<hash>           # the old base: where the work currently attaches
 
 git rebase --onto $F $D
+git log --oneline --graph testing new-feature
 ```
 
 ```
