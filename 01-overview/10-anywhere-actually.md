@@ -6,14 +6,13 @@ GitHub is popular, but it's one option of many. A Git repository can live anywhe
 set up to host one: GitLab, Bitbucket, a server you run yourself. Here the same project
 gets a second remote on GitLab.
 
-**Starting point:** the repository from [1.9](09-versions-can-live-elsewhere.md), and an
-empty project created on GitLab. This module is optional: nothing later depends on the
-GitLab remote.
+**Starting point:** the repository from [1.9](09-versions-can-live-elsewhere.md), and a
+GitLab account. This module is optional: nothing later depends on the GitLab remote.
 
 ## Commands
 
 ```bash
-GIT_URL="git@gitlab.com:<your-group>"
+GIT_URL="git@gitlab.com:<your-gitlab-username>"
 GIT_URL="${GIT_URL}/git-tutorial.git"
 git remote add gitlab "${GIT_URL}"
 git remote -v
@@ -26,10 +25,10 @@ two remotes:
 
 ```
 $ git remote -v
-gitlab	git@gitlab.com:<your-group>/git-tutorial.git (fetch)
-gitlab	git@gitlab.com:<your-group>/git-tutorial.git (push)
-origin	git@github.com:<your-username>/git-tutorial.git (fetch)
-origin	git@github.com:<your-username>/git-tutorial.git (push)
+gitlab	git@gitlab.com:<your-gitlab-username>/git-tutorial.git (fetch)
+gitlab	git@gitlab.com:<your-gitlab-username>/git-tutorial.git (push)
+origin	git@github.com:<your-github-username>/git-tutorial.git (fetch)
+origin	git@github.com:<your-github-username>/git-tutorial.git (push)
 ```
 
 Pushing to `gitlab` instead of `origin` puts the exact same project, history and all, on a
