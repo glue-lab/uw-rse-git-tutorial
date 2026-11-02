@@ -3,7 +3,7 @@
 ▶ [Watch in the video (12:44)](https://www.youtube.com/watch?v=7x6C8_FXEK0&t=764s)
 
 Each commit is a snapshot of your project, and Git keeps all of them. You can list the
-history of commits and pull up the contents of any file as it was at any of them.
+history of commits and pull up the contents of any file as it was in a particular commit.
 
 **Starting point:** the modified `README.md` from [1.5](05-git-tracks-changes.md).
 
