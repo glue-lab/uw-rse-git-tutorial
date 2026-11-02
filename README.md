@@ -1,23 +1,24 @@
-# The Story Of Your Project: A Git Tutorial
+# The Story Of Your Project: UW RSE Git Tutorial
 
 Companion materials for
 **[The Story Of Your Project](https://www.youtube.com/watch?v=7x6C8_FXEK0)**, a Git
 tutorial given to the Research Software Engineering (RSE) community at UW-Madison on
 Oct 26, 2026.
 
-The tutorial builds up a working knowledge of Git from first principles, then makes the
-case for Git as a storytelling tool: a way to deliberately shape a project's history so
+The tutorial builds up a working knowledge of Git from first principles, then showcases
+how to use Git as a communication tool to deliberately shape a project's history so
 that it communicates clearly to others. It closes with a look at real-world development on
-[Vertebrate](https://github.com/glue-lab/vertebrate).
+[Vertebrate](https://github.com/glue-lab/vertebrate), an open-source project.
 
 ## How to use this repo
 
-Each markdown file below is a **micro-module** that corresponds to one chapter of the
-video. It has a link to that point in the video, the commands demonstrated, and short
-notes on what's happening. The numbering matches the video's chapters.
+Each markdown file below corresponds to one chapter of the video. It records the commands
+the chapter covered in a format that makes them easier to try on your own, and it provides
+some notes on what's happening in each.
 
-The modules build on each other: run them in order in a scratch directory and you'll
-recreate the repositories from the talk. You'll need:
+Just as the commands from the video do, the files in this repository build on each other:
+run them in order in a scratch directory and you'll recreate the examples from the talk.
+You'll need:
 
 - `git`, for everything
 - a GitHub account with an SSH key, from 1.9 onward (and optionally a GitLab account for
@@ -27,7 +28,7 @@ recreate the repositories from the talk. You'll need:
 Section 3 reads real pull requests on GitHub and needs no account.
 
 Commit hashes, dates, and names in the example output will differ from yours: they depend
-on who made each commit and when. Wherever a module shows `<commit>` or `<hash>`, use one
+on who made each commit and when. Wherever a file shows `<commit>` or `<hash>`, use one
 from your own `git log`.
 
 ## Modules
