@@ -31,6 +31,9 @@ Commit hashes, dates, and names in the example output will differ from yours: th
 on who made each commit and when. Wherever a file shows `<commit>` or `<hash>`, use one
 from your own `git log`.
 
+The repo is largely AI generated, using the video as input. It has been manually reviewed
+in its entirety with small updates made for clarity and correctness.
+
 ## Modules
 
 | | Module | Video |
