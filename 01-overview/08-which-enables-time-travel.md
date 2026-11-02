@@ -2,7 +2,7 @@
 
 ▶ [Watch in the video (18:45)](https://www.youtube.com/watch?v=7x6C8_FXEK0&t=1125s)
 
-Because Git keeps every commit, you can jump a branch back to an earlier state of the
+Because Git keeps every commit, you can jump back to an earlier state of the
 project. Doing it on a new branch leaves `main` untouched.
 
 **Starting point:** the repository from [1.7](07-git-is-version-control.md), on `main`.
